@@ -89,7 +89,6 @@ proxy-groups:
   - name: GAME
     type: select
     proxies:
-     - ID-X
      - DIRECT
      - REJECT
 
@@ -149,4 +148,5 @@ rule-providers:
     type: file
     behavior: domain
     path: ./block.yaml  
+
 
